@@ -1,0 +1,16 @@
+header{
+    
+    height: 48px;
+    background-image:url(../images/pngtree-shattered-glass-abstract-art-image_16317649.jpg);
+    background-repeat: repeat-x;
+}
+nav{
+    height: 65px;
+}
+header>.container, nav>.container, section>.container, footer>.container{
+    max-width: 2000px;
+    margin: auto;
+    background-color: red;
+    height: 100%;
+    min-width: 900px;
+}
